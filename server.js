@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 const cors = require('cors')
 
 // require route files
-const exampleRoutes = require('./app/routes/example_routes')
+const gymRoutes = require('./app/routes/gym_routes')
 const userRoutes = require('./app/routes/user_routes')
 
 // require middleware
@@ -61,7 +61,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(requestLogger)
 
 // register route files
-app.use(exampleRoutes)
+app.use(gymRoutes)
 app.use(userRoutes)
 
 // register error handling middleware
@@ -71,7 +71,7 @@ app.use(errorHandler)
 
 // run API on designated port (4741 in this case)
 app.listen(port, () => {
-  console.log('listening on port ' + port)
+  console.log('Mass Martial Arts API runnning on port: ' + port)
 })
 
 // needed for testing
