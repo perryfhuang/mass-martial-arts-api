@@ -36,6 +36,10 @@ const gymSchema = new mongoose.Schema({
   hours: {
     type: String,
     required: true
+  },
+  link: {
+    type: String,
+    required: true
   }
 }, {
   timestamps: true
