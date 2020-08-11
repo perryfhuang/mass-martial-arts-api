@@ -29,7 +29,7 @@ const gymSchema = new mongoose.Schema({
       enum: statesArr
     },
     zip: {
-      type: Number,
+      type: String,
       required: true
     }
   },
