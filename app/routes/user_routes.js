@@ -17,6 +17,8 @@ const BadCredentialsError = errors.BadCredentialsError
 
 const User = require('../models/user')
 
+// const index = 'hello'
+
 // passing this as a second argument to `router.<verb>` will make it
 // so that a token MUST be passed for that route to be available
 // it will also set `res.user`
@@ -24,6 +26,14 @@ const requireToken = passport.authenticate('bearer', { session: false })
 
 // instantiate a router (mini app that only handles routes)
 const router = express.Router()
+
+// GET
+router.get('/', (req, res, next) => {
+  // User res.render to render an HTML page
+  // Pass in the filepath for the HTML
+  // Read mongoose docs for res.render
+  res.send('<h3>Welcome to the Mass Martial Arts API</h3><p><a href="https://perryfhuang.github.io/mass-martial-arts-client/" target="_blank">Click here</a> to go to the app.</p><img src="https://i.imgur.com/GX2CA88.png" width="85%">')
+})
 
 // SIGN UP
 // POST /sign-up
