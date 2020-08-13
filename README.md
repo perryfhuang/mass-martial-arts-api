@@ -23,7 +23,7 @@ Starting out, I wanted the gym resource to have reviews as a subdocument, as wel
 | DELETE | `/sign-out`        | `users#sign-out`        |   `true`        |
 | GET    | `/gyms`            | `gyms#index`            |   `false`       |
 | POST   | `/gyms`            | `gyms#create`           |   `true`        |
-| GET    | `/gyms/:id`        | `gyms#update`           |   `true`        |
+| PATCH  | `/gyms/:id`        | `gyms#update`           |   `true`        |
 | DELETE | `/gyms/:id`        | `gyms#delete`           |   `true`        |
 
 All data returned from the API is formatted as JSON.
