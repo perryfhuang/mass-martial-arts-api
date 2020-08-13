@@ -21,8 +21,7 @@ Starting out, I wanted the gym resource to have reviews as a subdocument, as wel
 | POST   | `/sign-in`         | `users#sign-in`         |   `false`       |
 | PATCH  | `/change-password` | `users#change-password` |   `true`        |
 | DELETE | `/sign-out`        | `users#sign-out`        |   `true`        |
-| GET    | `/gyms`            | `gyms#index`            |   `true`        |
-| GET    | `/gyms/:id`        | `gyms#show`             |   `true`        |
+| GET    | `/gyms`            | `gyms#index`            |   `false`       |
 | POST   | `/gyms`            | `gyms#create`           |   `true`        |
 | GET    | `/gyms/:id`        | `gyms#update`           |   `true`        |
 | DELETE | `/gyms/:id`        | `gyms#delete`           |   `true`        |
