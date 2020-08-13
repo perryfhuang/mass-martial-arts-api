@@ -4,9 +4,10 @@ The API for Mass Martials Arts is built with Express, MongoDB, and Mongoose. Use
 
 ## Important Links
 
+- [Deployed API](https://mass-martial-arts-api.herokuapp.com/)
 - [Mass Martial Arts App](https://perryfhuang.github.io/mass-martial-arts-client/)
 - [Mass Martial Arts Client GitHub Repo](https://github.com/perryfhuang/mass-martial-arts-client)
-- [Deployed API](https://whispering-brook-82557.herokuapp.com)
+
 
 ## Planning Story
 
