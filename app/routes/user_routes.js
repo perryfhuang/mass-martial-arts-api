@@ -32,7 +32,7 @@ router.get('/', (req, res, next) => {
   // User res.render to render an HTML page
   // Pass in the filepath for the HTML
   // Read mongoose docs for res.render
-  res.send('<h3>Welcome to the Mass Martial Arts API</h3><p><a href="https://perryfhuang.github.io/mass-martial-arts-client/" target="_blank">Click here</a> to go to the app.</p><img src="https://i.imgur.com/pDdgi5y.png" width="650">')
+  res.send('<h3>Welcome to the Mass Martial Arts API</h3><p><a href="https://perryfhuang.github.io/mass-martial-arts-client/" target="_blank">Click here</a> to go to the app.</p><img src="https://i.imgur.com/xV8DoLV.png" width="650">')
 })
 
 // SIGN UP
