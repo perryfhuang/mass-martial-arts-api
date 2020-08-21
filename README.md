@@ -1,6 +1,6 @@
 # Mass Martial Arts API
 
-The API for Mass Martials Arts is built with Express, MongoDB, and Mongoose. Users and gyms are the two resources that I modeled using Mongoose. These documents are stored in a non-relational database, MongoDB. Using Express, I constructed the API routes for creating, reading, updating and deleting 'gyms'. I've required user/token authentication for these actions with the help of crypto (to generate the tokens) and Passport (authentication middleware used with Express). I used bcrypt to hash user passwords and ensure safe, secure storage in the database. Several user routes were also written in order to support login, logout, sign up, and change password functions.
+The API for Mass Martials Arts is built with Express, MongoDB, and Mongoose. Users and gyms are the two resources that I modeled using Mongoose. These documents are stored in a non-relational database, MongoDB. Using Express, I constructed the API routes for creating, reading, updating and deleting 'gyms'. I've required user/token authentication for creating, updating and deleting with the help of crypto (to generate the tokens) and Passport (authentication middleware used with Express). I used bcrypt to hash user passwords and ensure safe, secure storage in the database. Several user routes were also written in order to support login, logout, sign up, and change password functions.
 
 ## Important Links
 
